@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contatti - Centro Veterinario Ferreri</title>
+<meta name="description" content="Contatta il Centro Veterinario Ferreri">
+<link rel="icon" href="images/logo_cvf.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Vai al contenuto</a>
+<div class="topbar">
+  <div class="container">
+    <span>Viale Alvise Cadamosto, 59 &ndash; 95100 Catania (CT)</span>
+    <span class="topbar-phone"><img src="images/header_telefono.png" alt="">095.3522573</span>
+  </div>
+</div>
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html">
+      <img src="images/logo_cvf.png" alt="Centro Veterinario Ferreri">
+      <span class="brand-text">
+        <strong>Centro Veterinario Ferreri</strong>
+        <span>Medicina interna &amp; Oncologia veterinaria &mdash; Catania</span>
+      </span>
+    </a>
+    <button class="nav-toggle" aria-label="Apri menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" aria-label="Menu principale">
+      <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="centro.html">Il Centro</a></li>
+            <li><a href="oncologia.html">Oncologia</a></li>
+            <li><a href="referenza.html">Referenza</a></li>
+            <li><a href="servizi.html">Servizi</a></li>
+            <li><a href="dove-siamo.html">Dove Siamo</a></li>
+            <li class="current"><a href="contatti.html">Contatti</a></li>
+            <li><a href="staff-pets.html">Staff Pets</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<div class="page-hero">
+  <div class="container">
+    <h1>Contattaci</h1>
+    <p>Compila il modulo sottostante e inviaci i dati della tua richiesta.</p>
+  </div>
+</div>
+
+<main id="main" class="page-body">
+  <div class="container layout">
+    <div class="content">
+      <article class="card">
+        <p>I campi contrassegnati dall&rsquo;asterisco (*) sono obbligatori.</p>
+        <form>
+          <div class="form-field">
+            <label for="tipo">Tipo di comunicazione *</label>
+            <select id="tipo" name="tipo" required style="border:1px solid var(--line); border-radius:10px; padding:12px 14px; font-family:inherit; font-size:.96rem;">
+              <option value="">Seleziona&hellip;</option>
+              <option>Richiesta appuntamento</option>
+              <option>Informazioni</option>
+              <option>Altro</option>
+            </select>
+          </div>
+          <div class="form-grid">
+            <div class="form-field">
+              <label for="ragsoc">Ragione sociale</label>
+              <input type="text" id="ragsoc" name="ragsoc">
+            </div>
+            <div class="form-field"></div>
+            <div class="form-field">
+              <label for="nome">Nome *</label>
+              <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-field">
+              <label for="cognome">Cognome *</label>
+              <input type="text" id="cognome" name="cognome" required>
+            </div>
+            <div class="form-field">
+              <label for="indirizzo">Indirizzo</label>
+              <input type="text" id="indirizzo" name="indirizzo">
+            </div>
+            <div class="form-field">
+              <label for="citta">Citt&agrave;</label>
+              <input type="text" id="citta" name="citta">
+            </div>
+            <div class="form-field">
+              <label for="telefono">Telefono *</label>
+              <input type="tel" id="telefono" name="telefono" required>
+            </div>
+            <div class="form-field">
+              <label for="email">E-mail *</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="messaggio">Messaggio *</label>
+            <textarea id="messaggio" name="messaggio" rows="5" required></textarea>
+          </div>
+          <p style="font-size:.82rem;">Confermando l&rsquo;invio dei dati, l&rsquo;utente dichiara di aver preso visione dell&rsquo;Informativa di cui all&rsquo;art. 13 D. Lgs. 196/03 (&ldquo;Codice in materia di protezione dei dati personali&rdquo;) resa dal Centro Medico Veterinario Ferreri nella sezione Privacy di questo sito e conferisce alla stessa il consenso al trattamento e alla comunicazione dei suoi dati personali per i fini indicati nella suddetta informativa. In qualunque momento l&rsquo;Interessato potr&agrave; esercitare i suoi diritti e richiedere di consultare, modificare, opporsi al trattamento dei dati (art. 7 D. Lgs. 196/03).</p>
+          <div class="form-field">
+            <label style="font-weight:400;"><input type="radio" name="consenso" value="si"> Autorizzo il trattamento dei dati personali</label>
+            <label style="font-weight:400;"><input type="radio" name="consenso" value="no"> Non autorizzo il trattamento dei dati personali</label>
+          </div>
+          <button type="submit" class="btn-submit">Invia richiesta</button>
+        </form>
+      </article>
+    </div>
+    <aside class="sidebar">
+      <div class="info-box teal">
+        <div class="info-box-head">Contatti diretti</div>
+        <div class="info-box-body">
+          Via Alvise Cadamosto, 59<br>95100 Catania (CT)<br><br>
+          Tel. <span class="accent">095.3522573</span><br>
+          <a href="mailto:info@centroveterinarioferreri.it">info@centroveterinarioferreri.it</a>
+        </div>
+      </div>
+      <div class="info-box sky">
+        <div class="info-box-head">Orari</div>
+        <div class="info-box-body">
+          <span class="accent">Luned&igrave; &ndash; Venerd&igrave;</span><br>
+          <span class="accent">09:00 &ndash; 18:00</span><br>
+          previo appuntamento.
+        </div>
+      </div>
+    </aside>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>Centro Medico Veterinario Ferreri</h4>
+      <p style="color:#cfe6e4;">Via Alvise Cadamosto, 59<br>95100 Catania (CT)<br>Tel. 095.3522573<br>
+      <a href="mailto:info@centroveterinarioferreri.it">info@centroveterinarioferreri.it</a></p>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/pages/Centro-Veterinario-Ferreri/185920394948101" target="_blank" rel="noopener"><img src="images/button_facebook.png" alt="Facebook"></a>
+        <a href="#" id="segnalaAmico"><img src="images/button_segnalaAmico.png" alt="Segnala ad un amico" style="height:24px;"></a>
+      </div>
+    </div>
+    <div>
+      <h4>Il Centro</h4>
+      <a href="index.html">Home</a>
+      <a href="centro.html">Il Centro</a>
+      <a href="oncologia.html">Oncologia</a>
+      <a href="referenza.html">Referenza</a>
+      <a href="servizi.html">Servizi</a>
+    </div>
+    <div>
+      <h4>Informazioni</h4>
+      <a href="dove-siamo.html">Dove Siamo</a>
+      <a href="contatti.html">Contatti</a>
+      <a href="staff-pets.html">Staff Pets</a>
+      <a href="faq.html">FAQ</a>
+    </div>
+    <div>
+      <h4>Orari</h4>
+      <p style="color:#cfe6e4;">Lun&ndash;Ven<br>09:00 &ndash; 18:00<br>Previo appuntamento</p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <a href="dove-siamo.html">Mappa del sito</a> | <a href="#">Privacy</a> | <a href="#">Cookie</a> | <a href="https://www.neoteksolutions.it" target="_blank" rel="noopener">Credits</a>
+    <br>Copyright &copy; 2026. Tutti i diritti riservati Centro Veterinario Ferreri &ndash; P. IVA: 05083190875
+  </div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
